@@ -24,7 +24,7 @@ description: 本地部署
 > mvn clean install -Dmaven.javadoc.skip=true -B -Drat.skip=true -Djacoco.skip=true -DskipITs -DskipTests
 ```
 
-* 使用开发工具启动 `org.apache.shenyu.admin.ShenyuAdminBootstrap`，访问 http://localhost:9095 ， 默认用户名和密码分别为: `admin` 和 `123456`。
+* 使用开发工具启动 `org.apache.shenyu.admin.ShenyuAdminBootstrap`，也可以使用命令启动`mvn spring-boot:run`，访问 http://localhost:9095 ， 默认用户名和密码分别为: `admin` 和 `123456`。
 
   * 如果使用`h2`来存储，设置变量 `--spring.profiles.active = h2`
 
